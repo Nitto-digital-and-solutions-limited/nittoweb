@@ -1,4 +1,6 @@
 # nittodigital
 Nitto Digital website
 
-Please write some instructions.
+Write down some rules.
+
+OK.
