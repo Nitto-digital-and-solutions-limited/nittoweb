@@ -5,7 +5,7 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Nitto Digital::For more efficient 2022</title>
+	<title>Nitto Digital</title>
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="images/nittoic.ico" />
 	<!-- Bootstrap CSS -->
@@ -23,8 +23,10 @@
 			scroll-behavior: smooth;
 		}
 	</style>
+      
 
 </head>
+
 
 <body>
 
@@ -140,7 +142,7 @@
 					font-weight: 700; 
 					color: rgba(255, 255, 255, 1.00);
 					font-family:Poppins;
-					">For More Efficient 2022 </h1>
+					">For More Efficient <span id="year"></span> </h1>
 
 					<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-24-layer-5" data-x="742"
 						data-y="164" data-width="['none','none','none','none']"
@@ -213,7 +215,7 @@
 			<div class="container">
 				<div class="row flex-row-reverse">
 					<div class="col-lg-6 align-self-center position-relative wow slideInRight">
-						<img src="images/features/01.png" class="img-fluid" alt="images">
+						<img src="images/features/rm.png" class="img-fluid" alt="images">
 					</div>
 					<div class="col-lg-6 iq-rmt-50">
 						<h2 class="mb-3">Office and Business Resource Management</h2>
@@ -251,7 +253,7 @@
 			<div class="container">
 				<div class="row ">
 					<div class="col-lg-6 align-self-center position-relative wow slideInLeft">
-						<img src="images/features/02.png" class="img-fluid" alt="images">
+						<img src="images/features/digital-transformation.png" class="img-fluid" alt="images">
 					</div>
 					<div class="col-lg-6 iq-rmt-50">
 						<h2 class="mb-3">Digital Transformation</h2>
@@ -294,7 +296,7 @@
 					</div>
 					<div class="col-lg-6 align-self-center position-relative iq-rmt-50 ">
 						<div class="scrollme">
-							<img src="images/features/03.png" class="img-fluid hand-img animateme" data-when="enter"
+							<img src="images/features/automation.png" class="img-fluid hand-img animateme" data-when="enter"
 								data-from="1" data-to="0" data-translatey="-100" alt="images">
 						</div>
 					</div>
@@ -357,7 +359,7 @@
 					</div>
 					<div class="col-lg-6 align-self-center position-relative iq-rmt-50 ">
 						<div class="scrollme">
-							<img src="images/features/03.png" class="img-fluid hand-img animateme" data-when="enter"
+							<img src="images/features/productivity-tools.png" class="img-fluid hand-img animateme" data-when="enter"
 								data-from="1" data-to="0" data-translatey="-100" alt="images">
 						</div>
 					</div>
@@ -777,6 +779,7 @@
 	<!-- Main Content END -->
 	<!-- Footer Start -->
 	<footer class="iq-footer dark-bg">
+		
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -786,8 +789,7 @@
 								<div class="logo">
 									<a href="#" class=""><img class="img-fluid" src="images/footer-logo.png"
 											alt="#"></a>
-									<div class="iq-font-black mb-4 mt-4">Contrary to popular belief, Lorem not
-										simplyrandom text. It has roots a classical .</div>
+									<div class="iq-font-black mb-4 mt-4">Nitto Digital Services and Analytics Limited is founded to design and develop solutions using latest technologies those solves our everyday issues.</div>
 									<div class="footer-social">
 										<h4 class="float-left">Follow Us:</h4>
 										<ul class="social-links">
@@ -962,6 +964,14 @@
 			}
 		});	/*ready*/
 	</script>
+	<!-- year change  -->
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+		  var yearElement = document.getElementById('year');
+		  var currentYear = new Date().getFullYear();
+		  yearElement.textContent = currentYear;
+		});
+	  </script>
 
 
 
