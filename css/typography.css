@@ -53,7 +53,7 @@ General
 body { font-family: 'Poppins', sans-serif; font-weight: normal; font-style: normal; font-size: 16px; line-height: 2em; color: #868894; }
 a:focus { text-decoration: none !important; }
 a { color: #3877ff; }
-a:focus, a:hover { color: #06e24a; text-decoration: none !important; }
+a:focus, a:hover { color: #3877ff; text-decoration: none !important; }
 a, button { outline: medium none !important; }
 h1, h2, h3, h4, h5, h6 { font-family: 'Aileron', sans-serif; font-style: normal; font-weight: 700; color: #1b0e3d; margin: 0px; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
@@ -67,12 +67,12 @@ h6 { font-size: 18px; line-height: 1.3em; }
 ul { margin: 0px; padding: 0px; }
 ul li { list-style: none; }
 hr { margin: 0; padding: 0px; border-bottom: 1px solid #cccccc; display: inline-block; width: 100%; border-top: 0px; }
-a:hover { color: #06e24a; }
+a:hover { color: #3877ff; }
 
 /*---------------------------------------------------------------------
 Text color
 -----------------------------------------------------------------------*/
-.text-green { color: #06e24a; }
+.text-green { color: #3877ff; }
 .text-white { color: #ffffff; }
 .text-black { color: #000000; }
 .light-black { color: #565656; }
@@ -118,7 +118,7 @@ color: #666666; }
 :-moz-placeholder { /* Firefox 18- */
 color: #666666; }
 textarea.form-control, textarea { background: none; height: auto; padding: 15px 30px; margin-bottom: 30px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border: 2px solid #dedede; }
-input:hover, input.form-control:hover, input:focus, input.form-control:focus, textarea.form-control:hover, textarea.form-control:focus, textarea:hover, textarea:focus { border: 2px solid #06e24a; background: none; outline: 0; box-shadow: none; color: #666666; }
+input:hover, input.form-control:hover, input:focus, input.form-control:focus, textarea.form-control:hover, textarea.form-control:focus, textarea:hover, textarea:focus { border: 2px solid #0077ff; background: none; outline: 0; box-shadow: none; color: #666666; }
 
 /*----------------------------------------------------------------------
  Buttons
@@ -155,7 +155,7 @@ Background  color
 -----------------------------------------------------------------------*/
 .white-bg { background: #ffffff; }
 .gray-bg { background: #f6f6f6; }
-.dark-bg { background: #111111; }
+.dark-bg { background: #0077ff; }
 .lightblue-bg { background: #f2f7ff; }
 .lightdark-bg { background: #191a20; }
 .main-bg { background: #0077ff; }

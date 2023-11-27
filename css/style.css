@@ -35,8 +35,8 @@ Design and Developed by: iqonicthemes.in
 /*---------------------------------------------------------------------
                                Back to Top
 -----------------------------------------------------------------------*/
-#back-to-top .top { z-index: 999; position: fixed; margin: 0px; color: #fff; background: #1b0e3d; position: fixed; bottom: 25px; right: 25px; z-index: 999; font-size: 26px; width: 50px; height: 50px; text-align: center; line-height: 50px; border-radius: 90px; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; transition: all .3s ease-in-out; }
-#back-to-top .top:hover { background: #0077ff; color: #fff; -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); }
+#back-to-top .top { z-index: 999; position: fixed; margin: 0px; color: #fff; background: #0077ff; position: fixed; bottom: 25px; right: 25px; z-index: 999; font-size: 26px; width: 50px; height: 50px; text-align: center; line-height: 50px; border-radius: 90px; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; transition: all .3s ease-in-out; }
+#back-to-top .top:hover { background: #0077ff48; color: #fff; -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); }
 
 /*---------------------------------------------------------------------
                                 Loader
@@ -266,7 +266,7 @@ footer h4 { color: #ffffff; }
 .footer-social h4 { margin-top: 7px; }
 footer ul.social-links { float: left; padding-left: 15px; }
 footer ul.social-links li { display: inline-block; margin: 0 3px; text-align: center; }
-footer ul.social-links li a { height: 45px; width: 45px; line-height: 45px; display: inline-block; border: 1px solid #ffffff; border-radius: 90px; }
+footer ul.social-links li a { color: #ffffff; height: 45px; width: 45px; line-height: 45px; display: inline-block; border: 1px solid #ffffff; border-radius: 90px; }
 footer ul.social-links li:hover a { color: #ffffff; border: 1px solid #0077ff; background: #0077ff; }
 footer ul.iq-contact i { color: #ffffff; font-size: 26px; display: table-cell; margin-right: 20px; float: left; }
 footer ul.iq-contact i::before { vertical-align: middle; }
